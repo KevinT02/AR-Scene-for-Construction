@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GazeInteract.unity
+- path: Assets/Scenes/ModernOffice_Interior_SampleLayout.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
