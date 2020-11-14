@@ -31,11 +31,14 @@ public class ARTap : MonoBehaviour
 
     void Update()
     {
-        UpdatePlacementPose();
-
-        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (!isObjectPlaced)
         {
-            PlaceObject();
+            UpdatePlacementPose();
+
+            if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                PlaceObject();
+            }
         }
 
     }
