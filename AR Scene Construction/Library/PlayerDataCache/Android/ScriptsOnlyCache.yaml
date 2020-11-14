@@ -2,13 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARTap
-    - Controlled
     - FaceCamera
     - FixedJoystick
     - Gaze
     - InfoBehaviour
-    - Joybutton
     - MenuManager
+    - RotateManager
     LeanTouch.dll:
     - Lean.Touch.LeanPinchScale
     - Lean.Touch.LeanTouch
@@ -32,8 +31,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -70,8 +67,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -87,71 +82,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11900}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11898}
+      Script: {instanceID: 11904}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 11952}
+      Script: {instanceID: 11944}
     - Class: 114
-      Script: {instanceID: 12094}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12348}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12470}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 12570}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 13078}
+      Script: {instanceID: 13938}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 14226}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 14248}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 14270}
     - Class: 114
-      Script: {instanceID: 14220}
+      Script: {instanceID: 14348}
     - Class: 114
-      Script: {instanceID: 14298}
+      Script: {instanceID: 14530}
     - Class: 114
-      Script: {instanceID: 14472}
+      Script: {instanceID: 14546}
     - Class: 114
-      Script: {instanceID: 14648}
+      Script: {instanceID: 14710}
     - Class: 114
-      Script: {instanceID: 14690}
+      Script: {instanceID: 14754}
     - Class: 114
-      Script: {instanceID: 14764}
+      Script: {instanceID: 14830}
     - Class: 114
-      Script: {instanceID: 14860}
+      Script: {instanceID: 14930}
     - Class: 114
-      Script: {instanceID: 14946}
+      Script: {instanceID: 15016}
     - Class: 114
-      Script: {instanceID: 14964}
+      Script: {instanceID: 15034}
     - Class: 114
-      Script: {instanceID: 15122}
+      Script: {instanceID: 15202}
     - Class: 114
-      Script: {instanceID: 15160}
+      Script: {instanceID: 15240}
     - Class: 114
-      Script: {instanceID: 15228}
+      Script: {instanceID: 15312}
     - Class: 114
-      Script: {instanceID: 15230}
+      Script: {instanceID: 15314}
     - Class: 114
-      Script: {instanceID: 15308}
+      Script: {instanceID: 15394}
     - Class: 114
-      Script: {instanceID: 33482}
+      Script: {instanceID: 75228}
     - Class: 114
-      Script: {instanceID: 33488}
-    - Class: 114
-      Script: {instanceID: 33502}
+      Script: {instanceID: 84456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,6 +168,12 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
       Hash: f087c23fbfa15475a0d110af46fb0496
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -187,16 +186,22 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: Text
+    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
@@ -223,6 +228,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: b3da21de9c2aadb62bd24811de4dec44
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerUpdate
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -235,16 +246,16 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 7d589369854026402d619f513b157284
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerDown
+  - hash:
+      serializedVersion: 2
       Hash: 9c7c87712e298256d276eb96e02a57b1
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: PreferenceDictionary
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Joybutton
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -313,6 +324,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTouchEvents
+  - hash:
+      serializedVersion: 2
       Hash: 5f206dd3b0d6b103c9456019be49d644
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -331,22 +348,34 @@ ScriptsOnlyBuild:
     className: ARRaycastManager
   - hash:
       serializedVersion: 2
+      Hash: 1ea55d7abe2307363a713249b70fc2ed
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanGuide
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
+      Hash: d8b8560f3f696ef8cee90373f9baffae
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelect
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f62dcae39ad4413b4d7e6f45e39b3ff7
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTwistRotateAxis
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -359,6 +388,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: eb27b06c0eaa67d17f6c84edaee630af
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanRoll
+  - hash:
+      serializedVersion: 2
+      Hash: cf1ad9af57e51d3949ba525fb4534068
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDestroy
   - hash:
       serializedVersion: 2
       Hash: 7f5c55cb7b3151ce240452eb85500d32
@@ -389,12 +430,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 2ac60b8c74c9938127f2cb09cd3acd9f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARTap
   - hash:
       serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
@@ -439,16 +474,22 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 6c1ab29ddfcd6014cccb0aadc55da469
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPlane
+  - hash:
+      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Shadow
+      Hash: 7877697d4dc6699de047ede0ef4054b4
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerSwipe
   - hash:
       serializedVersion: 2
       Hash: e8733e39efa851172df1c9eaef062265
@@ -473,6 +514,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanUpgradeEventSystem
   - hash:
       serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
@@ -523,6 +570,12 @@ ScriptsOnlyBuild:
     className: FloatingJoystick
   - hash:
       serializedVersion: 2
+      Hash: a73cc7e0d8575dd7105e0f0616a7253a
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPulseScale
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -553,6 +606,12 @@ ScriptsOnlyBuild:
     className: ARCoreLoaderSettings
   - hash:
       serializedVersion: 2
+      Hash: f130a8423e6424a57c8b7679ec028c5d
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTwistRotate
+  - hash:
+      serializedVersion: 2
       Hash: e9389e944eb81a3a9df56fcdb09ce6a9
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
@@ -569,6 +628,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 94787cde64aea8d2ddd6cf5584f4b697
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanInfoText
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -613,6 +678,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 964dce81080816542d4e5b1440191200
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanTouch
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -641,6 +712,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 67ff0514655e6b8be1eef9147b3f7076
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragCamera
   - hash:
       serializedVersion: 2
       Hash: f7bb6096199e0cf058d5d69878184cf4
@@ -703,10 +780,22 @@ ScriptsOnlyBuild:
     className: FixedJoystick
   - hash:
       serializedVersion: 2
+      Hash: e2efc7cfa5234245c18c3065917d8945
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPath
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ab334b0cf0347c25c195878c11f84d2c
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectable
   - hash:
       serializedVersion: 2
       Hash: 1d9b53318825332126b0fd6da2d962fb
@@ -721,10 +810,22 @@ ScriptsOnlyBuild:
     className: Entity
   - hash:
       serializedVersion: 2
+      Hash: 1105a1fb385a40d60c6071e45d19014b
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerOld
+  - hash:
+      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 564363b71973ff9b7c6dafd1d3a1fcfb
+    assemblyName: LeanCommon.dll
+    namespaceName: Lean.Common.Examples
+    className: LeanLinkTo
   - hash:
       serializedVersion: 2
       Hash: cdc504759d64aae7eed4463cbaec87db
@@ -743,6 +844,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEditor.XR.LegacyInputHelpers
     className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: f60dcd5f5b8383f6a0a75b8c21b7aa79
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanPinchScale
   - hash:
       serializedVersion: 2
       Hash: d39905ff8fda75afed4d688761c322e1
@@ -799,10 +906,22 @@ ScriptsOnlyBuild:
     className: Gaze
   - hash:
       serializedVersion: 2
+      Hash: 9277194e3007f91c41cc4dd392ebc5cb
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableSpriteRendererColor
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARKit.dll
     namespaceName: UnityEngine.XR.ARKit
     className: ARKitLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 331ff62c6c214edc2eb2bb7f250bdbf9
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerTap
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -841,10 +960,28 @@ ScriptsOnlyBuild:
     className: ARInputManager
   - hash:
       serializedVersion: 2
+      Hash: 9277194e3007f91c41cc4dd392ebc5cb
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableGraphicColor
+  - hash:
+      serializedVersion: 2
       Hash: 1bc03a501323d00d0037a6b76d25a3ba
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARMeshManager
+  - hash:
+      serializedVersion: 2
+      Hash: 90bfd3cba6e09c1bfbfe3b4fb78353c3
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTranslate
+  - hash:
+      serializedVersion: 2
+      Hash: 1105a1fb385a40d60c6071e45d19014b
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanFingerUp
   - hash:
       serializedVersion: 2
       Hash: a2612813f45d0ced02c3e4bc9dbea8b4
@@ -883,10 +1020,22 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 4e0bfd1d29eec1f3cda6b997a7d81004
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanDragTrail
+  - hash:
+      serializedVersion: 2
       Hash: 01473135d671a71d740e507b04eb93da
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
     className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 39a9bb9768c8206c97dc997d364a6275
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSpawn
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -949,6 +1098,12 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
+      Hash: 330f62fcfa21b2047340eab154927cfc
+    assemblyName: LeanTouch.dll
+    namespaceName: Lean.Touch
+    className: LeanSelectableRendererColor
+  - hash:
+      serializedVersion: 2
       Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -959,6 +1114,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: ba7d1b216031949a91ebc3172602f8c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaceObjectOnPlane
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -973,184 +1134,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: b3da21de9c2aadb62bd24811de4dec44
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerUpdate
-  - hash:
-      serializedVersion: 2
-      Hash: 7d589369854026402d619f513b157284
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerDown
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanTouchEvents
-  - hash:
-      serializedVersion: 2
-      Hash: 1ea55d7abe2307363a713249b70fc2ed
-    assemblyName: LeanCommon.dll
-    namespaceName: Lean.Common.Examples
-    className: LeanGuide
-  - hash:
-      serializedVersion: 2
-      Hash: d8b8560f3f696ef8cee90373f9baffae
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSelect
-  - hash:
-      serializedVersion: 2
-      Hash: f62dcae39ad4413b4d7e6f45e39b3ff7
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanTwistRotateAxis
-  - hash:
-      serializedVersion: 2
-      Hash: eb27b06c0eaa67d17f6c84edaee630af
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanRoll
-  - hash:
-      serializedVersion: 2
-      Hash: cf1ad9af57e51d3949ba525fb4534068
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanDestroy
-  - hash:
-      serializedVersion: 2
-      Hash: 6c1ab29ddfcd6014cccb0aadc55da469
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanPlane
-  - hash:
-      serializedVersion: 2
-      Hash: 7877697d4dc6699de047ede0ef4054b4
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerSwipe
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: LeanCommon.dll
-    namespaceName: Lean.Common.Examples
-    className: LeanUpgradeEventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: a73cc7e0d8575dd7105e0f0616a7253a
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanPulseScale
-  - hash:
-      serializedVersion: 2
-      Hash: f130a8423e6424a57c8b7679ec028c5d
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanTwistRotate
-  - hash:
-      serializedVersion: 2
-      Hash: 94787cde64aea8d2ddd6cf5584f4b697
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanInfoText
-  - hash:
-      serializedVersion: 2
-      Hash: 964dce81080816542d4e5b1440191200
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanTouch
-  - hash:
-      serializedVersion: 2
-      Hash: 67ff0514655e6b8be1eef9147b3f7076
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanDragCamera
-  - hash:
-      serializedVersion: 2
-      Hash: e2efc7cfa5234245c18c3065917d8945
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanPath
-  - hash:
-      serializedVersion: 2
-      Hash: ab334b0cf0347c25c195878c11f84d2c
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSelectable
-  - hash:
-      serializedVersion: 2
-      Hash: 1105a1fb385a40d60c6071e45d19014b
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerOld
-  - hash:
-      serializedVersion: 2
-      Hash: 564363b71973ff9b7c6dafd1d3a1fcfb
-    assemblyName: LeanCommon.dll
-    namespaceName: Lean.Common.Examples
-    className: LeanLinkTo
-  - hash:
-      serializedVersion: 2
-      Hash: f60dcd5f5b8383f6a0a75b8c21b7aa79
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanPinchScale
-  - hash:
-      serializedVersion: 2
-      Hash: 9277194e3007f91c41cc4dd392ebc5cb
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSelectableSpriteRendererColor
-  - hash:
-      serializedVersion: 2
-      Hash: 331ff62c6c214edc2eb2bb7f250bdbf9
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerTap
-  - hash:
-      serializedVersion: 2
-      Hash: 9277194e3007f91c41cc4dd392ebc5cb
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSelectableGraphicColor
-  - hash:
-      serializedVersion: 2
-      Hash: 90bfd3cba6e09c1bfbfe3b4fb78353c3
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanDragTranslate
-  - hash:
-      serializedVersion: 2
-      Hash: 1105a1fb385a40d60c6071e45d19014b
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanFingerUp
-  - hash:
-      serializedVersion: 2
-      Hash: 4e0bfd1d29eec1f3cda6b997a7d81004
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanDragTrail
-  - hash:
-      serializedVersion: 2
-      Hash: 39a9bb9768c8206c97dc997d364a6275
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSpawn
-  - hash:
-      serializedVersion: 2
-      Hash: 330f62fcfa21b2047340eab154927cfc
-    assemblyName: LeanTouch.dll
-    namespaceName: Lean.Touch
-    className: LeanSelectableRendererColor
-  - hash:
-      serializedVersion: 2
-      Hash: ba7d1b216031949a91ebc3172602f8c5
+      Hash: 5bfb3715885db85ff154b1777f4377c0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlaceObjectOnPlane
+    className: ARTap
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/3DScreen.unity
