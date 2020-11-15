@@ -3977,7 +3977,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827314214477478627}
-  m_LocalRotation: {x: 0, y: 0.18142141, z: 0, w: 0.9834055}
+  m_LocalRotation: {x: 0, y: 0.18142144, z: 0, w: 0.9834055}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -4591,8 +4591,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8540502295193433435}
-  - component: {fileID: 6210383543330584026}
   - component: {fileID: 8765939406794869234}
+  - component: {fileID: 3913558669176138859}
   m_Layer: 0
   m_Name: Office Building Prefab 1 1
   m_TagString: Untagged
@@ -4617,29 +4617,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6210383543330584026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997460583794919698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d72cc6210cb7144a24acb7402222a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Use:
-    Filter: 0
-    IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
-    RequiredSelectable: {fileID: 0}
-  Camera: {fileID: 0}
-  Relative: 0
-  Dampening: -1
-  remainingTranslation: {x: 0, y: 0, z: 0}
-  remainingRotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &8765939406794869234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4663,6 +4640,27 @@ MonoBehaviour:
   Sensitivity: 1
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &3913558669176138859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997460583794919698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Axis: {x: 0, y: -1, z: 0}
+  Space: 1
+  Sensitivity: 1
 --- !u!1 &1052726157332470982
 GameObject:
   m_ObjectHideFlags: 0
@@ -5663,7 +5661,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332654288296430824}
-  m_LocalRotation: {x: 0, y: 0.8856125, z: 0, w: 0.464425}
+  m_LocalRotation: {x: 0, y: 0.8856124, z: 0, w: 0.4644251}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -11660,7 +11658,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3312295147675936793}
-  m_LocalRotation: {x: 0, y: 0.2588159, z: 0, w: 0.9659267}
+  m_LocalRotation: {x: 0, y: 0.25881594, z: 0, w: 0.9659267}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -16454,7 +16452,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5054628749189201003}
-  m_LocalRotation: {x: 0, y: 0.9659248, z: 0, w: -0.2588231}
+  m_LocalRotation: {x: 0, y: 0.96592474, z: 0, w: -0.2588232}
   m_LocalPosition: {x: 0, y: 0.784, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -26068,7 +26066,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7891335418075632989}
-  m_LocalRotation: {x: 0, y: 0.25984353, z: 0, w: 0.96565074}
+  m_LocalRotation: {x: 0, y: 0.2598435, z: 0, w: 0.96565074}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
